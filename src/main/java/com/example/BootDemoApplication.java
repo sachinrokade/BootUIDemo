@@ -6,17 +6,20 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class BootDemoApplication extends SpringBootServletInitializer {
+public class BootDemoApplication //extends SpringBootServletInitializer {
  
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(BootDemoApplication.class);
-    }
+   // @Override
+    //protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+      //  return application.sources(BootDemoApplication.class);
+    //}
 
 
 	public static void main(String[] args)
 	{
+	System.out.println("Main is started");
 		SpringApplication.run(BootDemoApplication.class, args);
+	
+	System.out.println("Main is Ended");
 	}
 
 }
