@@ -17,7 +17,7 @@ public class BootDemoApplication extends SpringBootServletInitializer {
 	public static void main(String[] args)
 	{
 		String a=null;
-		a.subString(0,2);	//create NP 
+		a.substring(0,2);	//create NP 
 	System.out.println("Main is started");
 		SpringApplication.run(BootDemoApplication.class, args);
 	
