@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class BootDemoApplication extends SpringBootServletInitializer //{
+public class BootDemoApplication extends SpringBootServletInitializer {
  
    	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
@@ -16,8 +16,7 @@ public class BootDemoApplication extends SpringBootServletInitializer //{
 
 	public static void main(String[] args)
 	{
-		String a=null;
-		a.substring(0,2);	//create NP 
+		
 	System.out.println("Main is started");
 		SpringApplication.run(BootDemoApplication.class, args);
 	
