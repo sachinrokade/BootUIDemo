@@ -95,6 +95,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<profiles>
 	<artifactId>BootUIDemo</artifactId>
 </project>
