@@ -17,7 +17,8 @@ public class BootDemoApplication extends SpringBootServletInitializer {
 	public static void main(String[] args)
 	{
 		
-	System.out.println("Main is started");
+	//complie error of test jenkin build anly.		
+	System.out.println("Main is started")
 		SpringApplication.run(BootDemoApplication.class, args);
 	
 	System.out.println("Main is Ended");
