@@ -18,8 +18,8 @@ public class BootDemoApplication extends SpringBootServletInitializer {
 	{
 		
 	//add PMD
-	int a;
-	int b;
+	int a=0;
+	int b=0;
 		if(a==10)
 		{
 			if(b==20)
